@@ -10,6 +10,8 @@ ginc=$4
 dec=$5
 W=$6
 
+echo "###" "$D $R $I $ginc $dec $W"
+
 #
 # Reformat the data and set the minimum sigma at 0.6 mm/yr
 #

@@ -17,4 +17,5 @@ G=0.2
 D=1
 #  Select no weights:
 W=""
+echo "###" "$data $R $I $G $D $W"
 ${src:-.}/run_GPS_case_sub $data $R $I $G $D $W > $ps
